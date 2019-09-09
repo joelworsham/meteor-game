@@ -1,0 +1,39 @@
+{
+  "name": "meteor",
+  "version": "0.1.0",
+  "description": "Official codebase for the browser game \"Meteor\".",
+  "main": "build/index.html",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelworsham/meteor-game.git"
+  },
+  "keywords": [
+    "meteor",
+    "game",
+    "shoot",
+    "arcade",
+    "fun",
+    "personal"
+  ],
+  "author": "Joel Worsham",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/joelworsham/meteor-game/issues"
+  },
+  "homepage": "https://github.com/joelworsham/meteor-game#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "expy-recover-framework": "../expy-recover-framework",
+    "next": "^9.0.5",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0"
+  }
+}

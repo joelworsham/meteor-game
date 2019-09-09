@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/meteor-game/static/css/main.b417e1cc.chunk.css",
+    "main.js": "/meteor-game/static/js/main.b41f02c0.chunk.js",
+    "main.js.map": "/meteor-game/static/js/main.b41f02c0.chunk.js.map",
+    "runtime~main.js": "/meteor-game/static/js/runtime~main.0b16d9f0.js",
+    "runtime~main.js.map": "/meteor-game/static/js/runtime~main.0b16d9f0.js.map",
+    "static/js/2.566f3d74.chunk.js": "/meteor-game/static/js/2.566f3d74.chunk.js",
+    "static/js/2.566f3d74.chunk.js.map": "/meteor-game/static/js/2.566f3d74.chunk.js.map",
+    "index.html": "/meteor-game/index.html",
+    "precache-manifest.e444fbb1429697dac595e47db1755cae.js": "/meteor-game/precache-manifest.e444fbb1429697dac595e47db1755cae.js",
+    "service-worker.js": "/meteor-game/service-worker.js",
+    "static/css/main.b417e1cc.chunk.css.map": "/meteor-game/static/css/main.b417e1cc.chunk.css.map"
+  }
+}

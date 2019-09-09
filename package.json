@@ -3,12 +3,6 @@
   "version": "0.1.0",
   "description": "Official codebase for the browser game \"Meteor\".",
   "main": "build/index.html",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joelworsham/meteor-game.git"
@@ -26,13 +20,35 @@
   "bugs": {
     "url": "https://github.com/joelworsham/meteor-game/issues"
   },
-  "homepage": "https://github.com/joelworsham/meteor-game#readme",
+  "homepage": "http://joelworsham.github.io/meteor-game",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
-    "next": "^9.0.5",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.12",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
